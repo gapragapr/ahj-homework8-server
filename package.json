@@ -1,0 +1,25 @@
+{
+  "name": "ahj-homework8-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "nodemon": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-cors": "^0.0.16",
+    "koa-websocket": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "querystring": "^0.2.1",
+    "uuid": "^8.3.2",
+    "ws": "^8.6.0"
+  }
+}
